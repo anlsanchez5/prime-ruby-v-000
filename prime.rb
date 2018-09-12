@@ -1,7 +1,6 @@
 def prime?(num)
-
     if num = 2
-      return ture
+      return true
     elsif num < 2
       return false
     elsif
