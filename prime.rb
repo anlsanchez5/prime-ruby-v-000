@@ -1,5 +1,5 @@
 def prime?(num)
-    if num < 3
+    if num < 2
       return false
     elsif
       range = (2..num - 1).to_a
