@@ -1,9 +1,11 @@
 def prime?(num)
     if num < 2
       return false
-    else
+    elsif
       range = (2..num - 1).to_a
-      range.all? {|x|  num % x != 0}
+      range.any? {|x|  num % x == 0}
+      return false
+    else
       return true
     end
 end
