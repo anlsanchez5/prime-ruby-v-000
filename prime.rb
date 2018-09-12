@@ -4,7 +4,7 @@ def prime?(num)
       return true
     elsif num < 2
       return false
-    elsif range.any? {|x|  x % num == 0}
+    elsif range.any? {|x|  num % x == 0}
       return false
     else
       return true
