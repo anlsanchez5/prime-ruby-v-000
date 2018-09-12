@@ -1,6 +1,8 @@
 def prime?(num)
   for i in 2..num - 1
-    if num % i == 0 || num < 0
+    if num < 0
+      prime_flag = false
+    elsif num % i == 0 
        prime_flag = false
     else
       prime_flag = true
