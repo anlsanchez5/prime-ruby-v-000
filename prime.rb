@@ -1,12 +1,8 @@
 def prime?(num)
-    if num < 2  
-      false
+    if num < 2
+      return false
     else
-      for i in 2..num - 1
-        if num % i == 0
-      
+      range = (2..num - 1).to_a
+      range.any? {|x|  num % x == 0}
     end
-    return prime_flag
-  end
-
 end
