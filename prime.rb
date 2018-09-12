@@ -1,5 +1,5 @@
 def prime?(num)
-  
+
     if num = 2
       return ture
     elsif num < 2
